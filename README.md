@@ -72,7 +72,7 @@ Riesgo principal
 
 La oferta de chefs por ciudad y el costo de los ingredientes caribeños fuera del Caribe pueden limitar la disponibilidad y encarecer la experiencia. En el piloto se medirá qué ciudades tienen oferta suficiente y cómo afecta el precio a la conversión.
 
-5. Estructura del proyecto
+5. Estructura
 ├── index.html            la app (estructura de la página)
 ├── proyecto.html         página que presenta el proyecto
 ├── css/
@@ -107,10 +107,3 @@ JavaScript: catálogo, reservas, seguimiento y envío de datos, sin frameworks.
 Google Sheets y Apps Script: base de datos de cuentas y reservas, y envío de correos.
 Almacenamiento del navegador: datos de la sesión durante el MVP.
 GitHub: publicación de la app.
-Configuración (correos y hoja de cálculo)
-Entra a script.google.com con tu Gmail → Proyecto nuevo → pega apps-script/Codigo.gs.
-(Opcional) Para guardar en Google Sheets, pon el ID de tu hoja en ID_HOJA. Sin hoja, los correos funcionan igual.
-Ejecuta probarCodigo y acepta los permisos; luego probarReserva.
-Implementar → Nueva implementación → Aplicación web → Ejecutar como: Yo · Acceso: Cualquier persona.
-Copia la URL que termina en /exec y pégala en js/sheets.js (SHEETS_URL).
-Sube todo a GitHub y activa Pages (Settings → Pages → rama main, carpeta raíz).
